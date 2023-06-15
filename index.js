@@ -1,11 +1,14 @@
 function ms() {
-    return Date.now()
+    let time = Date.now()
+    return time
 }
 function ss() {
-    return Date.now()/6
+    let time = Date.now()/6
+    return time
 }
 function mcs() {
-    return Date.now()*1000
+    let time = Date.now()*1000
+    return time
 }
 
 module.exports = { ms, ss, mcs }
